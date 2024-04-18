@@ -21,7 +21,8 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "Hoy tenemos Champions",
-        Description = "Api Crud de Champions"
+        Description = "Api Crud de Champions",
+        Version = "v1"
     });
 });
 
